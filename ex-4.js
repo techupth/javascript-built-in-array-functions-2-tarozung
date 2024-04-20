@@ -374,4 +374,7 @@ const bills = [
 ];
 
 // Start coding here
-const totalMembers;
+const totalMembers = bills.filter(bill => bill.member);
+let uniqueMemberCount = totalMembers.length;
+
+console.log(uniqueMemberCount);
